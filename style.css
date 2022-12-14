@@ -43,7 +43,7 @@ section.copy-container {
 }
 
 header {
-	padding: 2rem 0;
+	padding-bottom: 1.5rem;
 }
 
 section.copy-container {
@@ -125,7 +125,7 @@ input {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 1rem;
-	margin: 2rem 0;
+	margin-top: 1.5rem;
 }
 
 #keys button {
@@ -152,7 +152,7 @@ input {
 	cursor: pointer;
 	display: block;
 	height: 3rem;
-	width: 7rem;
+	width: 6.5rem;
 }
 
 .flex {
@@ -174,4 +174,22 @@ input {
 .success {
 	border-color: var(--primary-color) !important;
 	color: var(--primary-color) !important;
+}
+
+@media (max-width: 425px) {
+	main {
+		max-width: 20rem;
+	}
+	#copyToClipboard {
+		width: 5rem;
+		padding: 0;
+	}
+}
+@media (max-width: 320px) {
+	main {
+		max-width: 17rem;
+	}
+	#copyToClipboard {
+		width: 4.5rem;
+	}
 }
