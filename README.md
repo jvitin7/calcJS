@@ -6,9 +6,9 @@ Calculadora que faz operações básicas, feita durante os ensinos do curso de J
 ## Demonstração
 
 <a href="https://jvitin7.github.io/calcJS/">
-    <img src="https://github.com/jvitin7/calcJS/blob/main/images/design-light.png">
-    <img height="30" src="https://github.com/jvitin7/calcJS/blob/main/images/design-dark.png">
+    <img height="700px" src="https://github.com/jvitin7/calcJS/blob/main/images/design-light.png">
 </a>
+https://jvitin7.github.io/calcJS/
 
 
 ## Funcionalidades
