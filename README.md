@@ -4,10 +4,10 @@ Calculadora que faz operações básicas, feita durante os ensinos do curso de J
 
 
 ## Demonstração
-
-<a href="https://jvitin7.github.io/calcJS/">
+<p><a href="https://jvitin7.github.io/calcJS/">
     <img height="700px" src="https://github.com/jvitin7/calcJS/blob/main/images/design-light.png">
-</a>
+</a></p>
+
 https://jvitin7.github.io/calcJS/
 
 
