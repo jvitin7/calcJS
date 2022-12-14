@@ -52,26 +52,26 @@ function calculate() {
     resultInput.classList.add('error');
 
     const result = eval(input.value);
-    resultInput.value = result;
+    resultInput.value = '= ' + result;
     resultInput.classList.remove('error');
 }
 
 // Trocar o tema
 document.getElementById('themeSwitcher').addEventListener('click', function() {
-    if(main.dataset.theme === 'dark') {
-        root.style.setProperty('--bg-color', '#F1F5F9');
-        root.style.setProperty('--border-color', '#AAA');
-        root.style.setProperty('--font-color', '#212529');
-        root.style.setProperty('--primary-color', '#23834A');
-        
-        main.dataset.theme = 'light';
-    } else {
-        root.style.setProperty('--bg-color', '#212529');
-        root.style.setProperty('--border-color', '#666');
-        root.style.setProperty('--font-color', '#f1f5f9');
-        root.style.setProperty('--primary-color', '#4dff91');
+    if(main.dataset.theme === 'light') {
+        root.style.setProperty('--bg-color', '#F2F2F0');
+        root.style.setProperty('--primary-color', '#382F59');
+        root.style.setProperty('--secundary-color', '#201B40');
+        root.style.setProperty('--switch-color', '#382F59');
         
         main.dataset.theme = 'dark';
+    } else {
+        root.style.setProperty('--bg-color', '#181426');
+        root.style.setProperty('--primary-color', '#F2F2F0');
+        root.style.setProperty('--secundary-color', '#F2F2F0');
+        root.style.setProperty('--switch-color', '#F2F2F0');
+        
+        main.dataset.theme = 'light';
     }
 });
 
