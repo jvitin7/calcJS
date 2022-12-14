@@ -5,8 +5,11 @@ Calculadora que faz operações básicas, feita durante os ensinos do curso de J
 
 ## Demonstração
 
-![https://github.com/jvitin7/calcJS/blob/main/images/design-dark.png](https://jvitin7.github.io/calcJS/)
-![https://github.com/jvitin7/calcJS/blob/main/images/design-light.png](https://jvitin7.github.io/calcJS/)
+<a href="https://jvitin7.github.io/calcJS/">
+    <img src="https://github.com/jvitin7/calcJS/blob/main/images/design-light.png">
+    <img height="30" src="https://github.com/jvitin7/calcJS/blob/main/images/design-dark.png">
+</a>
+
 
 ## Funcionalidades
 
